@@ -1,6 +1,6 @@
 # XOrithm Server Status | Web Application
 
-A a web-based server status dashboard that displays the real-time status of multiple servers, along with authentication for authorized access.
+A web-based server status dashboard that displays the real-time status of multiple servers, along with authentication for authorized access.
 
 ## Live Preview
 The application is deployed on vercel platform, you can check out  [Live Preview](https://server-status-five.vercel.app)
@@ -96,6 +96,21 @@ You can watch a demo video through [demo](https://drive.google.com/file/d/1COytD
 <li>A (Server Component) that maps on the servers array</li>
 <li>Inside Server Component, below it name, a (Record Component) represents the history of each server status per last 60 days</li>
 <li>A show details button that show a (ServerDetails Component) </li>
+
+
+### Alternative to Real-Time
+<p>In orders to show changing values for the server response time & up time, a function (getRandomTime) generates random values between a specific range, as shown in the following code:</p>
+
+```
+function getRandomTime(min, max) {
+    return Math.random() * (max - min) + min;
+}
+```
+
+```
+  responseTime: `${getRandomTime(50,250).toFixed(0)}ms`,
+  uptime: `${getRandomTime(98,100).toFixed(0)}%`,
+```
 
 ## Conclusion
 <p>The Assignment duration was 3 days</p>

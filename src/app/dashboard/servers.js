@@ -4,8 +4,8 @@ export const servers = [
         name: 'XOrithm',
         ipAddress: '192.168.1.1',
         status: 'Online',
-        responseTime: `${getRandomUpTime(50,250).toFixed(0)}ms`,
-        uptime: `${getRandomUpTime(98,100).toFixed(0)}%`,
+        responseTime: `${getRandomTime(50,250).toFixed(0)}ms`,
+        uptime: `${getRandomTime(98,100).toFixed(0)}%`,
         history: [
             { timestamp: new Date('2024-01-01'), status: 'Online', responseTime: 50, uptime: '99%' },
             { timestamp: new Date('2024-01-02'), status: 'Online', responseTime: 50, uptime: '99%' },
@@ -74,8 +74,8 @@ export const servers = [
         name: 'XOrithm API',
         ipAddress: '192.168.1.2',
         status: 'Offline',
-        responseTime: `${getRandomUpTime(50,250).toFixed(0)}ms`,
-        uptime: `${getRandomUpTime(98,100).toFixed(0)}%`,
+        responseTime: `${getRandomTime(50,250).toFixed(0)}ms`,
+        uptime: `${getRandomTime(98,100).toFixed(0)}%`,
         history: [
             { timestamp: new Date('2024-01-01'), status: 'Online', responseTime: 50, uptime: '99%' },
             { timestamp: new Date('2024-01-02'), status: 'Online', responseTime: 50, uptime: '99%' },
@@ -144,9 +144,7 @@ export const servers = [
 ]
 
 
-function getRandomUpTime(min, max) {
+function getRandomTime(min, max) {
     return Math.random() * (max - min) + min;
 }
-function getRandomResponseTime(min, max) {
-    return Math.random() * (max - min) + min;
-}
+
