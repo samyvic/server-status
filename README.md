@@ -67,11 +67,15 @@ You can watch a demo video through [demo]()
 ## Wireframe
 ![Wireframe](https://github.com/samyvic/server-status/assets/47760339/56bb75af-7c78-4f9f-8e7c-a5bd3784bf5e)
 
+## Components Breakdown Structure
+![cbs](https://github.com/samyvic/server-status/assets/47760339/2c90d336-05f4-40dc-89b2-74dbc2e8beab)
+
 ## Code Documentation
 <strong>Folder Structure</strong>
 <li>The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)</li>
 <li>The App folder includes a global css file</li>
 <li>The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)</li>
+<li>The dashboard folder includes servers.js file which contains an array of objects of servers information</li>
 <hr>
 <strong>Welcome Page Content</strong>
 <li>A hero section which is the (Welcome Component)</li>
