@@ -22,10 +22,10 @@ You can watch a demo video through [demo]()
 
 ## Technology Stack 
 <Strong>Frontend</Strong>
-<p><strong>Approach 1: (Angualr)</strong>
+<p><strong>Approach 1: (Angualr)</strong></p>
 - pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
 - cons: Has a steeper learning curve than other fronend frameworks
-<p><strong>Approach 2: (Next.js)</strong>
+<p><strong>Approach 2: (Next.js)</strong></p>
 - pros: A full-stack framework based on React, which follows a component-based architecture.
 - cons: Complexity for simple projects
 - My Choice: I am more familiar with react than angular. So, I choose (Next.js)
