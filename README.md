@@ -108,12 +108,12 @@ function getRandomTime(min, max) {
 ```
 
 ```
-  responseTime: `${getRandomTime(50,250).toFixed(0)}ms`,
-  uptime: `${getRandomTime(98,100).toFixed(0)}%`,
+responseTime: `${getRandomTime(50,250).toFixed(0)}ms`,
+uptime: `${getRandomTime(98,100).toFixed(0)}%`,
 ```
 
 ## Conclusion
-<p>The Assignment duration was 3 days</p>
+<p>The Assignment duration was 3 days, my work plan went as follow:</p>
 <p><strong>Day 1:</strong></p>
 <li>Understanding the problem statement</li>
 <li>Doing search about some topics in the assignment </li>
