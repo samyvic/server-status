@@ -119,7 +119,7 @@ You can watch a demo video through [demo]()
 <li>Allow users to report issues in a "comment" components</li>
 <li>Testing the application functions</li>
 
-</hr>
+<hr>
 <p><strong>Proposed More Features</strong></p>
 <li>Providing the application with charts of the system metrics to facilitace analyzing the performance</li>
 <li>Set up a notification system to alert admins in case of critical server issues or status changes</li>
