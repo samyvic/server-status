@@ -6,7 +6,7 @@ A a web-based server status dashboard that displays the real-time status of mult
 The application is deployed on vercel platform, you can check out  [Live Preview](https://server-status-five.vercel.app)
 
 ## Demo
-You can watch a demo video through [demo]()
+You can watch a demo video through [demo](https://drive.google.com/file/d/1COytDZC0cwvYAxzvFGyXO5z3utIKLvQI/view?usp=sharing)
 
 ## App Usage
 `npm install`
