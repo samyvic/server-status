@@ -68,59 +68,59 @@ You can watch a demo video through [demo]()
 
 ## Code Documentation
 <strong>Folder Structure</strong>
-<p> - The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)
-<p> - The App folder includes a global css file
-<p> - The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)
+<li>The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)
+<li>The App folder includes a global css file
+<li>The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)
 
 <strong>Welcome Page Content</strong>
-- A hero section which is the (Welcome Component)
-- Two (Link Components, imported from "next/link" module) to allow user to choose whether to register or login
+<li>A hero section which is the (Welcome Component)
+<li>Two (Link Components, imported from "next/link" module) to allow user to choose whether to register or login
 
 <strong>Register Page Content</strong>
-- A hero section (Welcome Component)
-- A Registeration form 
-- A button redirect to login page on successful registration
+<li>A hero section (Welcome Component)
+<li>A Registeration form 
+<li>A button redirect to login page on successful registration
   
 <strong>Login Page Content</strong>
-- A hero section (Welcome Component)
-- A Login form 
-- A button redirect to dashboard page on successful login
+<li>A hero section (Welcome Component)
+<li>A Login form 
+<li>A button redirect to dashboard page on successful login
 
 <strong>Dashboard Page Content</strong>
-- A (Navbar Component) includes a logout (Link Component) redirecting to the login page
-- A (Server Component) that maps on the servers array
-- Inside Server Component, below it name, a (Record Component) represents the history of each server status per last 60 days
-- A show details button that show a (ServerDetails Component) 
+<li>A (Navbar Component) includes a logout (Link Component) redirecting to the login page
+<li>A (Server Component) that maps on the servers array
+<li>Inside Server Component, below it name, a (Record Component) represents the history of each server status per last 60 days
+<li>A show details button that show a (ServerDetails Component) 
 
 ## Conclusion
 The Assignment duration was 3 days
 Day 1: 
-- Understanding the problem statement
-- Doing search about some topics in the assignment 
-- Gathering information and searching for servers status api
-- Writting the user stories and setting the System Outline
+<li>Understanding the problem statement
+<li>Doing search about some topics in the assignment 
+<li>Gathering information and searching for servers status api
+<li>Writting the user stories and setting the System Outline
 Day 2:
-- Making the system design
-- Drawing a wireframe to the application
-- Make a breakdown structure of the ui components 
-- Starting implementing the pages user interface
+<li>Making the system design
+<li>Drawing a wireframe to the application
+<li>Make a breakdown structure of the ui components 
+<li>Starting implementing the pages user interface
 Day 3:
-- Adding functionality to pages 
-- Deploying the application 
-- Writting the documentation
+<li>Adding functionality to pages 
+<li>Deploying the application 
+<li>Writting the documentation
   
 <strong>To Do in the next sprint</strong>
-- Refactoring Code
-- Modifying pages to be responsive
-- Putting more restrictions and data validation on registration and login forms
-- Preventing returning back to the login form after logging-In to the dashboard
-- Preventing returning back to the dashboard page after logging out (returning should be via logging-In again)
-- Trying again with OAuth to enable user to LogIn with social media accounts
-- Allow users to report issues in a "comment" components
-- Testing the application functions
+<li>Refactoring Code
+<li>Modifying pages to be responsive
+<li>Putting more restrictions and data validation on registration and login forms
+<li>Preventing returning back to the login form after logging-In to the dashboard
+<li>Preventing returning back to the dashboard page after logging out (returning should be via logging-In again)
+<li>Trying again with OAuth to enable user to LogIn with social media accounts
+<li>Allow users to report issues in a "comment" components
+<li>Testing the application functions
 
 <strong>Proposed More Features</strong>
-- Providing the application with charts of the system metrics to facilitace analyzing the performance
-- Set up a notification system to alert admins in case of critical server issues or status changes
+<li>Providing the application with charts of the system metrics to facilitace analyzing the performance
+<li>Set up a notification system to alert admins in case of critical server issues or status changes
 
 
