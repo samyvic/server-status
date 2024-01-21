@@ -18,7 +18,6 @@ export default function Dashboard() {
               <Server></Server>
             </div>
             </div>
-            <button className='ml-auto' onClick={()=> signOut()}>Logout</button>
         </div>
     </>
 
