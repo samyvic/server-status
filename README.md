@@ -15,9 +15,9 @@ You can watch a demo video through [demo]()
 ### App Features
 1. User can register, log in, log out (authentication with email & password)
 2. Dashboard Page includes:
-- List of servers with their current status (online or offline)
-- Color coded indicators for the server statues through the past 60 days
-- Detailed server information on clicking on each server
+  - List of servers with their current status (online or offline)
+  - Color coded indicators for the server statues through the past 60 days
+  - Detailed server information on clicking on each server
 
 ### Technology Stack 
 <Strong>Frontend</Strong>
