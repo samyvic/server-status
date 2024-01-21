@@ -29,7 +29,7 @@ You can watch a demo video through [demo]()
 <li>pros: A full-stack framework based on React, which follows a component-based architecture.</li>
 <li>cons: Complexity for simple projects</li>
 <p>My Choice: I am more familiar with react than angular. So, I choose (Next.js)</p>
----
+<hr>
 <Strong>Styling</Strong>
 <p><strong>Approach 1: (Bootstrap)</strong>
 <li>pros: Comes with extensive component library</li>
@@ -38,7 +38,7 @@ You can watch a demo video through [demo]()
 <li>pros: Highly customizable with composable utilities</li>
 <li>cons: Steeper learning curve due to new utility-first paradigm.</li>
 <p>My Choice: I prefer using tailwind to customize the components myself.
----
+<hr>
 <Strong>Authentication</Strong>
 <p><strong>Approach 1: (Database like: prisma)</strong></p>
 <li>pros: Data consistancy and full control over user data, authentication logic, permissions, and access management.</li>
@@ -51,7 +51,7 @@ You can watch a demo video through [demo]()
 <li>cons: Storing authentication tokens in local storage poses security risks, especially in the case of cross-site scripting (XSS) attacks.</li>
 <p>My Choice: I prefer using firebase authentication because it is easier than the first approach and secured than local storage.</p>
 <p>Updates: I changed authentication to local storage (due to facing errors, and to finish the assignment within the due date)</p>
----
+<hr>
 <Strong>Data Fetching</Strong>
 <p><strong>Approach 1: (Mockup API)</strong></p>
 <li>pros: APIs provide real-time or near-real-time data updates, ensuring that your application stays current with the latest information.</li>
@@ -59,7 +59,7 @@ You can watch a demo video through [demo]()
 <p><strong>Approach 2: (Static Data)</strong></p>
 <li>pros: Static data is served quickly as it is already preloaded, users can access application offline.</li>
 <p>My Choice: I searched for fake apis for servers status but in vain. So, I choosed static data approach.</p>
----
+<hr>
 <Strong>Real Time Updates</Strong>
 <p>Ensuring that the dashboard reflects real-time server status could be achieved by some options like polling technique and web sockets, but as I choosed static data approach, no need for these techniques.</p>
 <p>However, in order to have the effect of real-time, I have applied a rondom function some of the servers data like response time and up time.</p>
@@ -71,21 +71,21 @@ You can watch a demo video through [demo]()
 <li>The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)</li>
 <li>The App folder includes a global css file</li>
 <li>The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)</li>
----
+<hr>
 <strong>Welcome Page Content</strong>
 <li>A hero section which is the (Welcome Component)</li>
 <li>Two (Link Components, imported from "next/link" module) to allow user to choose whether to register or login</li>
----
+<hr>
 <strong>Register Page Content</strong>
 <li>A hero section (Welcome Component)</li>
 <li>A Registeration form </li>
 <li>A button redirect to login page on successful registration</li>
---- 
+<hr>
 <strong>Login Page Content</strong>
 <li>A hero section (Welcome Component)</li>
 <li>A Login form </li>
 <li>A button redirect to dashboard page on successful login</li>
----
+<hr>
 <strong>Dashboard Page Content</strong>
 <li>A (Navbar Component) includes a logout (Link Component) redirecting to the login page</li>
 <li>A (Server Component) that maps on the servers array</li>
@@ -108,7 +108,7 @@ You can watch a demo video through [demo]()
 <li>Adding functionality to pages </li>
 <li>Deploying the application </li>
 <li>Writting the documentation</li>
----
+<hr>
 <p><strong>To Do in the next sprint</strong></p>
 <li>Refactoring Code</li>
 <li>Modifying pages to be responsive</li>
