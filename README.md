@@ -65,6 +65,7 @@ You can watch a demo video through [demo]()
 <p>However, in order to have the effect of real-time, I have applied a rondom function some of the servers data like response time and up time.</p>
 
 ## Wireframe
+![Wireframe](https://github.com/samyvic/server-status/assets/47760339/56bb75af-7c78-4f9f-8e7c-a5bd3784bf5e)
 
 ## Code Documentation
 <strong>Folder Structure</strong>
