@@ -22,41 +22,41 @@ You can watch a demo video through [demo]()
 
 ### Technology Stack 
 <Strong>Frontend</Strong>
-<p>Approach 1: (Angualr)
+<p><strong>Approach 1: (Angualr)</strong>
 <p>pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
 <p>cons: Has a steeper learning curve than other fronend frameworks
-<p>Approach 2: (Next.js)
+<p><strong>Approach 2: (Next.js)</strong>
 <p>pros: A full-stack framework based on React, which follows a component-based architecture.
 <p>cons: Complexity for simple projects
 <p>My Choice: I am more familiar with react than angular. So, I choose (Next.js)
 
 <Strong>Styling</Strong>
-<p>Approach 1: (Bootstrap)
+<p><strong>Approach 1: (Bootstrap)</strong>
 <p>pros: Comes with extensive component library
 <p>cons: Less flexible, relies on pre-made components
-<p>Approach 2: (Tailwind)
+<p><strong>Approach 2: (Tailwind)</strong>
 <p>pros: Highly customizable with composable utilities
 <p>cons: Steeper learning curve due to new utility-first paradigm.
 <p>My Choice: I prefer using tailwind to customize the components myself.
 
 <Strong>Authentication</Strong>
-<p>Approach 1: (Database like: prisma)
+<p><strong>Approach 1: (Database like: prisma)</strong>
 <p>pros: Data consistancy and full control over user data, authentication logic, permissions, and access management.
 <p>cons: Implementing custom authentication logic is more time-consuming compared to using pre-built authentication services.
-<p>Approach 2: (Firebase)
+<p><strong>Approach 2: (Firebase)</strong>
 <p>pros: Provides simple integration into the application and designed to scale easily 
 <p>cons: User authentication data is stored separately from your application data
-<p>Approach 3: (Local Storage)
+<p><strong>Approach 3: (Local Storage)</strong>
 <p>pros: Local storage is easy to implement, especially for small-scale applications
 <p>cons: Storing authentication tokens in local storage poses security risks, especially in the case of cross-site scripting (XSS) attacks. 
 <p>My Choice: I prefer using firebase authentication because it is easier than the first approach and secured than local storage.
 <p>Updates: I changed authentication to local storage (due to facing errors, and to finish the assignment within the due date)
 
-<Strong>Data Fetching</<Strong>
-<p>Approach 1: (Mockup API)
+<Strong>Data Fetching</Strong>
+<p><strong>Approach 1: (Mockup API)</strong>
 <p>pros: APIs provide real-time or near-real-time data updates, ensuring that your application stays current with the latest information.
 <p>cons: Depending on external service and frequent API calls may introduce latency especially in scenarios with slow network connections.
-<p>Approach 2: (Static Data)
+<p><strong>Approach 2: (Static Data)</strong>
 <p>pros: Static data is served quickly as it is already preloaded, users can access application offline.
 <p>My Choice: I searched for fake apis for servers status but in vain. So, I choosed static data approach.
 
@@ -68,9 +68,9 @@ You can watch a demo video through [demo]()
 
 ## Code Documentation
 <strong>Folder Structure</strong>
-- The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)
-- The App folder includes a global css file
-- The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)
+<p> - The App folder includes 4 pages components (Welcome Page, Register Page, Login Page, Dashboard Page)
+<p> - The App folder includes a global css file
+<p> - The Src folder includes a separate components folder used in pages (button, navbar, record, serverDetails ...etc.)
 
 <strong>Welcome Page Content</strong>
 - A hero section which is the (Welcome Component)
