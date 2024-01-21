@@ -60,7 +60,7 @@ You can watch a demo video through [demo]()
 <li>pros: Static data is served quickly as it is already preloaded, users can access application offline.</li>
 <p>My Choice: I searched for fake apis for servers status but in vain. So, I choosed static data approach.</p>
 
-<Strong>Real Time Updates<Strong>
+<Strong>Real Time Updates</Strong>
 <p>Ensuring that the dashboard reflects real-time server status could be achieved by some options like polling technique and web sockets, but as I choosed static data approach, no need for these techniques.</p>
 <p>However, in order to have the effect of real-time, I have applied a rondom function some of the servers data like response time and up time.</p>
 
