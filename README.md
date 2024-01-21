@@ -13,6 +13,7 @@ You can watch a demo video through [demo]()
 `npm run dev`
 
 ### App Features
+
 1. User can register, log in, log out (authentication with email & password)
 2. Dashboard Page includes:
   - List of servers with their current status (online or offline)
@@ -21,47 +22,47 @@ You can watch a demo video through [demo]()
 
 ### Technology Stack 
 <Strong>Frontend</Strong>
-Approach 1: (Angualr)
-pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
-cons: Has a steeper learning curve than other fronend frameworks
-Approach 2: (Next.js)
-pros: A full-stack framework based on React, which follows a component-based architecture.
-cons: Complexity for simple projects
-My Choice: I am more familiar with react than angular. So, I choose (Next.js)
+<p>Approach 1: (Angualr)
+<p>pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
+<p>cons: Has a steeper learning curve than other fronend frameworks
+<p>Approach 2: (Next.js)
+<p>pros: A full-stack framework based on React, which follows a component-based architecture.
+<p>cons: Complexity for simple projects
+<p>My Choice: I am more familiar with react than angular. So, I choose (Next.js)
 
 <Strong>Styling</Strong>
-Approach 1: (Bootstrap)
-pros: Comes with extensive component library
-cons: Less flexible, relies on pre-made components
-Approach 2: (Tailwind)
-pros: Highly customizable with composable utilities
-cons: Steeper learning curve due to new utility-first paradigm.
-My Choice: I prefer using tailwind to customize the components myself.
+<p>Approach 1: (Bootstrap)
+<p>pros: Comes with extensive component library
+<p>cons: Less flexible, relies on pre-made components
+<p>Approach 2: (Tailwind)
+<p>pros: Highly customizable with composable utilities
+<p>cons: Steeper learning curve due to new utility-first paradigm.
+<p>My Choice: I prefer using tailwind to customize the components myself.
 
 <Strong>Authentication</Strong>
-Approach 1: (Database like: prisma)
-pros: Data consistancy and full control over user data, authentication logic, permissions, and access management.
-cons: Implementing custom authentication logic is more time-consuming compared to using pre-built authentication services.
-Approach 2: (Firebase)
-pros: Provides simple integration into the application and designed to scale easily 
-cons: User authentication data is stored separately from your application data
-Approach 3: (Local Storage)
-pros: Local storage is easy to implement, especially for small-scale applications
-cons: Storing authentication tokens in local storage poses security risks, especially in the case of cross-site scripting (XSS) attacks. 
-My Choice: I prefer using firebase authentication because it is easier than the first approach and secured than local storage.
-Updates: I changed authentication to local storage (due to facing errors, and to finish the assignment within the due date)
+<p>Approach 1: (Database like: prisma)
+<p>pros: Data consistancy and full control over user data, authentication logic, permissions, and access management.
+<p>cons: Implementing custom authentication logic is more time-consuming compared to using pre-built authentication services.
+<p>Approach 2: (Firebase)
+<p>pros: Provides simple integration into the application and designed to scale easily 
+<p>cons: User authentication data is stored separately from your application data
+<p>Approach 3: (Local Storage)
+<p>pros: Local storage is easy to implement, especially for small-scale applications
+<p>cons: Storing authentication tokens in local storage poses security risks, especially in the case of cross-site scripting (XSS) attacks. 
+<p>My Choice: I prefer using firebase authentication because it is easier than the first approach and secured than local storage.
+<p>Updates: I changed authentication to local storage (due to facing errors, and to finish the assignment within the due date)
 
 <Strong>Data Fetching</<Strong>
-Approach 1: (Mockup API)
-pros: APIs provide real-time or near-real-time data updates, ensuring that your application stays current with the latest information.
-cons: Depending on external service and frequent API calls may introduce latency especially in scenarios with slow network connections.
-Approach 2: (Static Data)
-pros: Static data is served quickly as it is already preloaded, users can access application offline.
-My Choice: I searched for fake apis for servers status but in vain. So, I choosed static data approach.
+<p>Approach 1: (Mockup API)
+<p>pros: APIs provide real-time or near-real-time data updates, ensuring that your application stays current with the latest information.
+<p>cons: Depending on external service and frequent API calls may introduce latency especially in scenarios with slow network connections.
+<p>Approach 2: (Static Data)
+<p>pros: Static data is served quickly as it is already preloaded, users can access application offline.
+<p>My Choice: I searched for fake apis for servers status but in vain. So, I choosed static data approach.
 
 <Strong>Real Time Updates</<Strong>
-Ensuring that the dashboard reflects real-time server status could be achieved by some options like polling technique and web sockets, but as I choosed static data approach, no need for these techniques.
-However, in order to have the effect of real-time, I have applied a rondom function some of the servers data like response time and up time.
+<p>Ensuring that the dashboard reflects real-time server status could be achieved by some options like polling technique and web sockets, but as I choosed static data approach, no need for these techniques.
+<p>However, in order to have the effect of real-time, I have applied a rondom function some of the servers data like response time and up time.
 
 ## Wireframe
 
