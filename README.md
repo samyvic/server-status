@@ -12,7 +12,7 @@ You can watch a demo video through [demo]()
 `npm install`
 `npm run dev`
 
-### App Features
+## App Features
 
 1. User can register, log in, log out (authentication with email & password)
 2. Dashboard Page includes:
@@ -20,15 +20,15 @@ You can watch a demo video through [demo]()
   - Color coded indicators for the server statues through the past 60 days
   - Detailed server information on clicking on each server
 
-### Technology Stack 
+## Technology Stack 
 <Strong>Frontend</Strong>
 <p><strong>Approach 1: (Angualr)</strong>
-<p>pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
-<p>cons: Has a steeper learning curve than other fronend frameworks
+- pros: Angular is highly scalable and suitable for building large-scale applications with complex features.
+- cons: Has a steeper learning curve than other fronend frameworks
 <p><strong>Approach 2: (Next.js)</strong>
-<p>pros: A full-stack framework based on React, which follows a component-based architecture.
-<p>cons: Complexity for simple projects
-<p>My Choice: I am more familiar with react than angular. So, I choose (Next.js)
+- pros: A full-stack framework based on React, which follows a component-based architecture.
+- cons: Complexity for simple projects
+- My Choice: I am more familiar with react than angular. So, I choose (Next.js)
 
 <Strong>Styling</Strong>
 <p><strong>Approach 1: (Bootstrap)</strong>
